@@ -1,0 +1,111 @@
+.face{
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 20%;
+    background-color: pink;
+}
+
+.eyeball1{
+    position: absolute;
+    border: 2px solid white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.eyeball2{
+    position: absolute;
+    border: 2px solid white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 190px;
+    margin-top: 20%;
+}
+
+.eyeball3{
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.eyeball4{
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nose{
+    position: absolute;
+    border: 2px solid black;
+    height: 60px;
+    width: 120px;
+    background-color: red;
+    margin-left: 30%;
+    margin-top: 60%;
+    border-radius: 100px;
+}
+
+.nosehole1{
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nosehole2{
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.ear1{
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    bottom: 40px;
+    margin-left: 30px;
+    background-color: pink;
+    border-radius: 200px 200px 0px 0px;
+    z-index: -1;
+}
+
+.ear2{
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    left: 160px;
+    bottom: 140px;
+    background-color: pink;
+    border-radius: 200px 200px 0px 0px;
+    z-index: -1;
+}
